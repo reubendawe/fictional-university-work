@@ -1,0 +1,7 @@
+[13-Jun-2025 15:52:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_file_url() in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:75
+Stack trace:
+#0 /Users/reuben/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/reuben/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/reuben/L...')
+#2 /Users/reuben/Local Sites/fictional-university/app/public/index.php(17): require('/Users/reuben/L...')
+#3 {main}
+  thrown in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 75
