@@ -18,9 +18,7 @@ while(have_posts()) {
 
     <!-- If statement example -->
       <?php 
-      if (2 + 2 == 4) {
-        echo "The sky is blue";
-      }
+      echo get_the_ID();
       ?>
 
       <div class="metabox metabox--position-up metabox--with-home-link">
