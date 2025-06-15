@@ -17,8 +17,9 @@ while(have_posts()) {
     <div class="container container--narrow page-section">
 
     <!-- If statement example -->
+    <!-- Gets the ID of the current page I'm viewing, Wordpress uses that number to look up the ID of its parent page -->
       <?php 
-      echo get_the_ID();
+      echo wp_get_post_parent_id(get_the_ID());
       ?>
 
       <div class="metabox metabox--position-up metabox--with-home-link">
