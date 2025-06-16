@@ -3,10 +3,10 @@
 <?php
 
 function doubleMe($x) {
-  echo $x * 2;
+  return $x * 2;
 }
 
-doubleMe(4); // Expect this to echo out as '8'
+echo doubleMe(25); 
 
 ?>
 
