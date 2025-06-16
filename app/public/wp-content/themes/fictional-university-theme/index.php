@@ -6,7 +6,9 @@ function doubleMe($x) {
   return $x * 2;
 }
 
-echo doubleMe(25); 
+if (doubleMe(12) == 24) {
+  echo "The function is performing the maths correctly.";
+} 
 
 ?>
 
