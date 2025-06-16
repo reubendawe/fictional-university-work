@@ -6,9 +6,11 @@ function doubleMe($x) {
   return $x * 2;
 }
 
-if (doubleMe(12) == 24) {
-  echo "The function is performing the maths correctly.";
-} 
+function tripleMe($x) {
+  return $x * 3;
+}
+
+echo tripleMe(doubleMe(5)) // 30
 
 ?>
 
