@@ -43,6 +43,8 @@ while(have_posts()) {
             'uchi' => 'mata'
           );
 
+          echo $judoThrows['uchi'];
+
           wp_list_pages();
           ?>
         </ul>
