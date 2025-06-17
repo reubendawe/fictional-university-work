@@ -32,10 +32,19 @@ while(have_posts()) {
       
 
       <div class="page-links">
-        <h2 class="page-links__title"><a href="#">About Us</a></h2>
+        <h2 class="page-links__title"><a href="#"><?php the_title(); ?></a></h2>
         <ul class="min-list">
-          <li class="current_page_item"><a href="#">Our History</a></li>
-          <li><a href="#">Our Goals</a></li>
+          <?php
+
+          // Associative array example (Judo throws)
+          $judoThrows = array(
+            'ippon' => 'seoi nage',
+            'osoto' => 'gari',
+            'uchi' => 'mata'
+          );
+
+          wp_list_pages();
+          ?>
         </ul>
       </div>
 
