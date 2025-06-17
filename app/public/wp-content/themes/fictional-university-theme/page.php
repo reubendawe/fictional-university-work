@@ -36,16 +36,11 @@ while(have_posts()) {
         <ul class="min-list">
           <?php
 
-          // Associative array example (Judo throws)
-          $judoThrows = array(
-            'ippon' => 'seoi nage',
-            'osoto' => 'gari',
-            'uchi' => 'mata'
-          );
+          wp_list_pages(array(
+            'title_li' => NULL, 
+            'child_of' => 31
+          ));
 
-          echo $judoThrows['uchi'];
-
-          wp_list_pages();
           ?>
         </ul>
       </div>
