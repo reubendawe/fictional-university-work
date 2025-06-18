@@ -38,7 +38,7 @@ while(have_posts()) {
 
           wp_list_pages(array(
             'title_li' => NULL, 
-            'child_of' => 31
+            'child_of' => 10
           ));
 
           ?>
