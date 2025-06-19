@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Meta name for device scaling -->
     <?php wp_head(); ?> <!-- Loads in (Wordpress in control) CSS -->
 </head>
-<body>
+<body <?php body_class(); ?>>
 
     <header class="site-header">
       <div class="container">
