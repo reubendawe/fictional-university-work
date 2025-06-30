@@ -15,11 +15,16 @@
             <div class="site-footer__col-two">
               <h3 class="headline headline--small">Explore</h3>
               <nav class="nav-list min-list">
+
+              <!-- Dynamic menu -->
+
                 <?php 
                 wp_nav_menu(array(
                   'theme_location' => 'footerLocationOne'
                 ));
                 ?>
+
+                <!-- Hard coded menu -->
 
                 <!-- <ul>
                   <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
@@ -33,11 +38,16 @@
             <div class="site-footer__col-three">
               <h3 class="headline headline--small">Learn</h3>
               <nav class="nav-list">
+
+                <!-- Dynamic menu -->
+
                 <?php 
                 wp_nav_menu(array(
                   'theme_location' => 'footerLocationTwo'
                 ));
                 ?>
+
+                <!-- Hard coded menu -->
 
                 <!-- <ul>
                   <li><a href="#">Legal</a></li>
