@@ -18,20 +18,20 @@
 
               <!-- Dynamic menu -->
 
-                <?php 
+                <!-- <?php 
                 wp_nav_menu(array(
                   'theme_location' => 'footerLocationOne'
                 ));
-                ?>
+                ?> -->
 
                 <!-- Hard coded menu -->
 
-                <!-- <ul>
+                 <ul>
                   <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
                   <li><a href="#">Programs</a></li>
                   <li><a href="#">Events</a></li>
                   <li><a href="#">Campuses</a></li>
-                </ul> -->
+                </ul> 
               </nav>
             </div>
 
@@ -41,19 +41,19 @@
 
                 <!-- Dynamic menu -->
 
-                <?php 
+                <!-- <?php 
                 wp_nav_menu(array(
                   'theme_location' => 'footerLocationTwo'
                 ));
-                ?>
+                ?> -->
 
                 <!-- Hard coded menu -->
 
-                <!-- <ul>
+                <ul>
                   <li><a href="#">Legal</a></li>
                   <li><a href="<?php echo site_url('/privacy-policy') ?>">Privacy</a></li>
                   <li><a href="#">Careers</a></li>
-                </ul> -->
+                </ul> 
               </nav>
             </div>
           </div>
