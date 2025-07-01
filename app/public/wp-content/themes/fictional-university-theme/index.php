@@ -18,6 +18,15 @@ get_header(); ?>
       the_post(); ?>
       <div class="post-item">
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+        <div class="meta-box">
+          <p>Posted by Reuben on 01/07/25 in News</p>
+        </div>
+
+        <div class="generic-content">
+          <?php the_excerpt(); ?>
+        </div>
+
       </div>
     <?php }
     ?>
