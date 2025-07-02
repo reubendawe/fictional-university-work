@@ -5,3 +5,4 @@ Stack trace:
 #2 /Users/reuben/Local Sites/fictional-university/app/public/index.php(17): require('/Users/reuben/L...')
 #3 {main}
   thrown in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 75
+[02-Jul-2025 07:25:45 UTC] PHP Warning:  Undefined variable $theParent in /Users/reuben/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php on line 21
