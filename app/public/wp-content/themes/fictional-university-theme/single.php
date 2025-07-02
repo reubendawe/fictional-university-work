@@ -14,6 +14,13 @@ while(have_posts()) {
         </div>
       </div>
     </div>
+
+    <div class="container container--narrow page-section">
+        metabox will go here 
+
+        <div class="generic-content"><?php the_content(); ?></div>
+    </div>
+
     <?php }
 
 get_footer();
