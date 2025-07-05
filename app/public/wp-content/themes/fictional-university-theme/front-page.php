@@ -43,10 +43,12 @@
         <div class="full-width-split__inner">
           <h2 class="headline headline--small-plus t-center">From Our Blogs</h2>
           <?php 
-          $homepagePosts = new WP_Query();
+          $homepagePosts = new WP_Query(array(
+            'posts_per_page' => 2
+          ));
 
-          while (have_posts()) {
-            the_post(); ?>
+          while ($homepagePosts->have_posts()) {
+            $homepagePosts->the_post(); ?>
             <li><?php the_title(); ?></li>
           <?php } 
           ?>
