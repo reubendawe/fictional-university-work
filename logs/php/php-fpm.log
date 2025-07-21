@@ -72,3 +72,8 @@
 [18-Jul-2025 13:25:26] NOTICE: exiting, bye-bye!
 [21-Jul-2025 12:57:33] NOTICE: fpm is running, pid 63585
 [21-Jul-2025 12:57:33] NOTICE: ready to handle connections
+[21-Jul-2025 14:22:00] NOTICE: Terminating ...
+[21-Jul-2025 14:22:00] NOTICE: Terminating ...
+[21-Jul-2025 14:22:00] NOTICE: exiting, bye-bye!
+[21-Jul-2025 16:09:55] NOTICE: fpm is running, pid 20545
+[21-Jul-2025 16:09:55] NOTICE: ready to handle connections
