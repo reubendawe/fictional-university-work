@@ -20,7 +20,7 @@
             'posts_per_page' => -1,
             'post_type' => 'event',
             'meta_key' => 'event_date',
-            'orderby' => 'meta_value',
+            'orderby' => 'meta_value_num',
             'order' => 'ASC'
           ));
 
