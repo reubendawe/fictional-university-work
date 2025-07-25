@@ -24,9 +24,9 @@
             'order' => 'ASC',
             'meta_query' => array(
               array(
-                'key' => x,
-                'compare' => x,
-                'value' => x,
+                'key' => 'event_date',
+                'compare' => '>=',
+                'value' => date('Ymd')
               )
             )
           ));
